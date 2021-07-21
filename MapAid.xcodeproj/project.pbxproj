@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C04B840A26A8907D00D005FA /* MapHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04B840926A8907D00D005FA /* MapHomeViewController.swift */; };
+		C04B840C26A8951000D005FA /* AboutTheDevsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04B840B26A8951000D005FA /* AboutTheDevsViewController.swift */; };
 		DBF3155526A872C9005B1376 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3155426A872C9005B1376 /* AppDelegate.swift */; };
 		DBF3155726A872C9005B1376 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3155626A872C9005B1376 /* SceneDelegate.swift */; };
 		DBF3155926A872C9005B1376 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3155826A872C9005B1376 /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C04B840926A8907D00D005FA /* MapHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapHomeViewController.swift; sourceTree = "<group>"; };
+		C04B840B26A8951000D005FA /* AboutTheDevsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTheDevsViewController.swift; sourceTree = "<group>"; };
 		DBF3155126A872C9005B1376 /* MapAid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapAid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF3155426A872C9005B1376 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBF3155626A872C9005B1376 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 				DBF3155426A872C9005B1376 /* AppDelegate.swift */,
 				DBF3155626A872C9005B1376 /* SceneDelegate.swift */,
 				DBF3155826A872C9005B1376 /* ViewController.swift */,
+				C04B840926A8907D00D005FA /* MapHomeViewController.swift */,
+				C04B840B26A8951000D005FA /* AboutTheDevsViewController.swift */,
 				DBF3155A26A872C9005B1376 /* Main.storyboard */,
 				DBF3156026A872CB005B1376 /* Assets.xcassets */,
 				DBF3156226A872CB005B1376 /* LaunchScreen.storyboard */,
@@ -265,6 +271,8 @@
 				DBF3155526A872C9005B1376 /* AppDelegate.swift in Sources */,
 				DBF3155726A872C9005B1376 /* SceneDelegate.swift in Sources */,
 				DBF3155F26A872C9005B1376 /* MapAid.xcdatamodeld in Sources */,
+				C04B840C26A8951000D005FA /* AboutTheDevsViewController.swift in Sources */,
+				C04B840A26A8907D00D005FA /* MapHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
