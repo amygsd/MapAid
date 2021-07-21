@@ -148,7 +148,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yil-XC-EXa">
-                                <rect key="frame" x="166" y="250" width="83" height="30"/>
+                                <rect key="frame" x="42" y="762" width="83" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back button"/>
                                 <connections>
@@ -244,6 +244,14 @@
                                     <segue destination="NzX-K4-u6o" kind="show" id="6Z8-XN-Qjn"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Qtt-h2-tsl">
+                                <rect key="frame" x="40" y="406" width="360" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Blank button/emoji to pin that links to current issue 2"/>
+                                <connections>
+                                    <segue destination="zD0-OU-OFZ" kind="show" id="FLU-K5-kIp"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPD-ix-CWv">
                                 <rect key="frame" x="41" y="778" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -252,12 +260,12 @@
                                     <segue destination="bkY-Et-bHK" kind="show" id="Gsq-xq-P59"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Qtt-h2-tsl">
-                                <rect key="frame" x="40" y="406" width="360" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="GfJ-1m-1hJ">
+                                <rect key="frame" x="40" y="468" width="360" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Blank button/emoji to pin that links to current issue 2"/>
+                                <state key="normal" title="Blank button/emoji to pin that links to current issue 3"/>
                                 <connections>
-                                    <segue destination="zD0-OU-OFZ" kind="show" id="FLU-K5-kIp"/>
+                                    <segue destination="ETa-dz-S9T" kind="show" id="Gfc-J1-W1H"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -268,7 +276,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P5g-6m-t8L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="726" y="-1110"/>
+            <point key="canvasLocation" x="724.63768115942037" y="-1110.2678571428571"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OWu-NJ-M8f">
@@ -326,6 +334,14 @@
                                     <segue destination="cB0-nz-yK3" kind="show" id="94K-uK-qCt"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T4c-yL-cgG">
+                                <rect key="frame" x="44" y="778" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <segue destination="cB0-nz-yK3" kind="show" id="iX9-Cr-UfE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QBg-j7-dkh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -336,10 +352,43 @@
             </objects>
             <point key="canvasLocation" x="2933" y="-1396"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="WzL-Ry-oTV">
+            <objects>
+                <viewController id="ETa-dz-S9T" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8B1-i0-iEh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NA Current Issue 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mvf-Vg-w8H">
+                                <rect key="frame" x="68" y="85" width="144" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Udf-Xb-KIS">
+                                <rect key="frame" x="36" y="778" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <segue destination="cB0-nz-yK3" kind="show" id="kxd-S5-SOe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="q85-x1-PMy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ocj-PB-KgF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nwC-2f-3ph" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3681" y="-1396"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="6Z8-XN-Qjn"/>
-        <segue reference="oSp-wF-7nH"/>
+        <segue reference="kxd-S5-SOe"/>
         <segue reference="Gsq-xq-P59"/>
         <segue reference="geh-hE-sVA"/>
     </inferredMetricsTieBreakers>
