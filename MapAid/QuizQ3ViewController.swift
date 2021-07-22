@@ -8,14 +8,35 @@
 import UIKit
 
 class QuizQ3ViewController: UIViewController {
-
+    
+    @IBOutlet weak var ansChoiceTextField: UITextField!
+    @IBOutlet weak var nextQuestTextField: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func A1Button(_ sender: Any) {
+        ansChoiceTextField.text = "Wrong, try again!"
+        nextQuestTextField.text = ""
+    }
+    @IBAction func A2ButtonCorrect(_ sender: Any) {
+        ansChoiceTextField.text = "Correct! Explanation:";
+        nextQuestTextField.text = "Next"
+    }
+    @IBAction func A3Button(_ sender: Any) {
+        ansChoiceTextField.text = "Wrong, try again!"
+        nextQuestTextField.text = ""
+    }
+    @IBAction func A4Button(_ sender: Any) {
+        ansChoiceTextField.text = "Wrong, try again!"
+        nextQuestTextField.text = ""
+    }
+    
+    
     /*
     // MARK: - Navigation
 

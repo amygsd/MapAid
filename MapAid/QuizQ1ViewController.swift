@@ -11,27 +11,8 @@ class QuizQ1ViewController: UIViewController {
 
     @IBOutlet weak var Question1Label: UILabel!
     @IBOutlet weak var Question1TextLabel: UILabel!
-    @IBOutlet weak var ansChoiceOutputLabel: UILabel!
-    @IBOutlet weak var nextQuestionLabel: UILabel!
-    
-    
-    
-    @IBAction func A1Button(_ sender: Any) {
-        ansChoiceOutputLabel.text = "Wrong, try again!";
-        nextQuestionLabel.text = " ";
-    }
-    @IBAction func A2ButtonCorrect(_ sender: Any) {
-        ansChoiceOutputLabel.text = "Correct! Explanation:";
-        nextQuestionLabel.text = "Go on to the next question."
-    }
-    @IBAction func A3Button(_ sender: Any) {
-        ansChoiceOutputLabel.text = "Wrong, try again!";
-        nextQuestionLabel.text = " ";
-    }
-    @IBAction func A4Button(_ sender: Any) {
-        ansChoiceOutputLabel.text = "Wrong, try again!";
-        nextQuestionLabel.text = " ";
-    }
+    @IBOutlet weak var ansChoiceTextField: UITextField!
+    @IBOutlet weak var nextQuesTextField: UITextField!
     
     
     override func viewDidLoad() {
@@ -40,7 +21,24 @@ class QuizQ1ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    
+    @IBAction func A1Label(_ sender: Any) {
+        ansChoiceTextField.text = "Wrong, try again!";
+        nextQuesTextField.text = ""
+    }
+    @IBAction func A2ButtonCorrect(_ sender: Any) {
+        ansChoiceTextField.text = "Correct! Explanation:";
+        nextQuesTextField.text = "Next"
+    }
+    @IBAction func A3Button(_ sender: Any) {
+        ansChoiceTextField.text = "Wrong, try again!";
+        nextQuesTextField.text = ""
+    }
+    @IBAction func A4Button(_ sender: Any) {
+        ansChoiceTextField.text = "Wrong, try again!";
+        nextQuesTextField.text = ""
+    }
+    
     /*
     // MARK: - Navigation
 
