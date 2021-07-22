@@ -13,6 +13,8 @@
 		C04B841026A8A2F300D005FA /* QuizQ2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04B840F26A8A2F300D005FA /* QuizQ2ViewController.swift */; };
 		C04B841226A8A30B00D005FA /* QuizQ3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04B841126A8A30B00D005FA /* QuizQ3ViewController.swift */; };
 		C04B841426A8A31A00D005FA /* QuizQ4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04B841326A8A31A00D005FA /* QuizQ4ViewController.swift */; };
+		C04B841626A9B6D600D005FA /* NAMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04B841526A9B6D600D005FA /* NAMapViewController.swift */; };
+		C04B841826A9BA6C00D005FA /* NAIssue1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04B841726A9BA6C00D005FA /* NAIssue1ViewController.swift */; };
 		DBF3155526A872C9005B1376 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3155426A872C9005B1376 /* AppDelegate.swift */; };
 		DBF3155726A872C9005B1376 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3155626A872C9005B1376 /* SceneDelegate.swift */; };
 		DBF3155926A872C9005B1376 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3155826A872C9005B1376 /* ViewController.swift */; };
@@ -48,6 +50,8 @@
 		C04B840F26A8A2F300D005FA /* QuizQ2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQ2ViewController.swift; sourceTree = "<group>"; };
 		C04B841126A8A30B00D005FA /* QuizQ3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQ3ViewController.swift; sourceTree = "<group>"; };
 		C04B841326A8A31A00D005FA /* QuizQ4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQ4ViewController.swift; sourceTree = "<group>"; };
+		C04B841526A9B6D600D005FA /* NAMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAMapViewController.swift; sourceTree = "<group>"; };
+		C04B841726A9BA6C00D005FA /* NAIssue1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAIssue1ViewController.swift; sourceTree = "<group>"; };
 		DBF3155126A872C9005B1376 /* MapAid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapAid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF3155426A872C9005B1376 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBF3155626A872C9005B1376 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +127,8 @@
 				C04B840F26A8A2F300D005FA /* QuizQ2ViewController.swift */,
 				C04B841126A8A30B00D005FA /* QuizQ3ViewController.swift */,
 				C04B841326A8A31A00D005FA /* QuizQ4ViewController.swift */,
+				C04B841526A9B6D600D005FA /* NAMapViewController.swift */,
+				C04B841726A9BA6C00D005FA /* NAIssue1ViewController.swift */,
 				DBF3155A26A872C9005B1376 /* Main.storyboard */,
 				DBF3156226A872CB005B1376 /* LaunchScreen.storyboard */,
 				DBF3156526A872CB005B1376 /* Info.plist */,
@@ -280,11 +286,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C04B841026A8A2F300D005FA /* QuizQ2ViewController.swift in Sources */,
+				C04B841626A9B6D600D005FA /* NAMapViewController.swift in Sources */,
 				C04B841226A8A30B00D005FA /* QuizQ3ViewController.swift in Sources */,
 				DBF3155926A872C9005B1376 /* ViewController.swift in Sources */,
 				C04B840E26A8A2C900D005FA /* QuizQ1ViewController.swift in Sources */,
 				C04B841426A8A31A00D005FA /* QuizQ4ViewController.swift in Sources */,
 				DBF3155526A872C9005B1376 /* AppDelegate.swift in Sources */,
+				C04B841826A9BA6C00D005FA /* NAIssue1ViewController.swift in Sources */,
 				DBF3155726A872C9005B1376 /* SceneDelegate.swift in Sources */,
 				DBF3155F26A872C9005B1376 /* MapAid.xcdatamodeld in Sources */,
 				C04B840C26A8951000D005FA /* AboutTheDevsViewController.swift in Sources */,

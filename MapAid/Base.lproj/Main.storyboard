@@ -302,7 +302,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="8oC-q6-y65">
-                                <rect key="frame" x="0.0" y="-34" width="414" height="788"/>
+                                <rect key="frame" x="-1" y="-35" width="414" height="789"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U0P-8B-vyC">
@@ -460,15 +460,6 @@
                                             <segue destination="bkY-Et-bHK" kind="show" id="T5v-mN-vXe"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S3r-eG-Qp5">
-                                        <rect key="frame" x="8" y="192" width="398" height="97"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">A person who leaves his or her country because of a well-founded fear of persecution due to race, religion, nationality, political opinion or social group is legally called what?
-</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yrI-9d-GqG">
                                         <rect key="frame" x="304" y="766" width="97" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -499,6 +490,15 @@
                                             <action selector="A3Button:" destination="Zqa-bG-UeV" eventType="touchUpInside" id="7em-cF-O4k"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S3r-eG-Qp5">
+                                        <rect key="frame" x="33" y="204" width="349" height="97"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">A person who leaves his or her country because of a well-founded fear of persecution due to race, religion, nationality, political opinion or social group is legally called what?
+</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="O4h-Bi-xdd"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -556,7 +556,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="aVn-Yx-AyR">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <rect key="frame" x="-1" y="0.0" width="414" height="808"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question 4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sSO-gT-JgE">
@@ -724,14 +724,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O49-ud-UqM">
-                                <rect key="frame" x="166" y="513" width="57" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Random"/>
-                                <connections>
-                                    <segue destination="NzX-K4-u6o" kind="show" id="rfD-8R-Or0"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8KB-4z-9ZZ">
                                 <rect key="frame" x="147" y="551" width="95" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -766,10 +758,10 @@
             </objects>
             <point key="canvasLocation" x="-364" y="-283"/>
         </scene>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="Z8p-BE-SSZ">
             <objects>
-                <viewController id="cB0-nz-yK3" sceneMemberID="viewController">
+                <viewController id="cB0-nz-yK3" customClass="NAMapViewController" customModule="MapAid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gFa-xF-HmE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -813,20 +805,42 @@
                                     <segue destination="ETa-dz-S9T" kind="show" id="Gfc-J1-W1H"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppp-04-Gn1">
+                                <rect key="frame" x="179" y="626" width="57" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Random"/>
+                                <connections>
+                                    <action selector="randomNAButton:" destination="cB0-nz-yK3" eventType="touchUpInside" id="9an-qS-eBH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="mPK-LT-UZn">
+                                <rect key="frame" x="152" y="523" width="130" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="NA Current Issue 4"/>
+                                <connections>
+                                    <segue destination="ZB7-aq-Y8n" kind="show" id="okq-oT-LQc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uKa-zk-MiN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="yHX-Rp-cw4"/>
+                    <connections>
+                        <segue destination="NzX-K4-u6o" kind="show" identifier="pushNA1" id="8Go-RT-EYN"/>
+                        <segue destination="zD0-OU-OFZ" kind="show" identifier="pushNA2" id="xj7-zm-Z3l"/>
+                        <segue destination="ETa-dz-S9T" kind="show" identifier="pushNA3" id="QXk-8v-nw8"/>
+                        <segue destination="ZB7-aq-Y8n" kind="show" identifier="pushNA4" id="Amy-Ho-U7a"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P5g-6m-t8L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="724.63768115942037" y="-1110.2678571428571"/>
         </scene>
-        <!--View Controller-->
+        <!--Issue1 View Controller-->
         <scene sceneID="OWu-NJ-M8f">
             <objects>
-                <viewController id="NzX-K4-u6o" sceneMemberID="viewController">
+                <viewController id="NzX-K4-u6o" customClass="NAIssue1ViewController" customModule="MapAid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aAQ-S4-57S">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -846,6 +860,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7po-Eg-y0K">
+                                <rect key="frame" x="195" y="433" width="140" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Open Website Link 1"/>
+                                <connections>
+                                    <action selector="openURL1:" destination="NzX-K4-u6o" eventType="touchUpInside" id="1M5-Eh-N02"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="frY-rj-F1C"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -854,7 +876,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rbr-dY-iJ4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2211.594202898551" y="-1395.5357142857142"/>
+            <point key="canvasLocation" x="2152" y="-2080"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="74T-yt-FLi">
@@ -895,7 +917,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DhH-pO-OWX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2933" y="-1396"/>
+            <point key="canvasLocation" x="2151" y="-1389"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="WzL-Ry-oTV">
@@ -928,13 +950,49 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nwC-2f-3ph" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3681" y="-1396"/>
+            <point key="canvasLocation" x="2151" y="-659"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="RoV-xA-61S">
+            <objects>
+                <viewController id="ZB7-aq-Y8n" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yMC-D5-bHH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NA Current Issue 4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CyE-0b-c5D">
+                                <rect key="frame" x="64" y="123" width="145" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nhF-tB-GJU">
+                                <rect key="frame" x="38" y="760" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <segue destination="cB0-nz-yK3" kind="show" id="3yP-K6-n5U"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZBl-h5-bhN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="LcW-vr-MQd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RH8-oo-c88" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2151" y="42"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="6Z8-XN-Qjn"/>
-        <segue reference="kxd-S5-SOe"/>
-        <segue reference="9N6-7y-huY"/>
+        <segue reference="Amy-Ho-U7a"/>
+        <segue reference="QXk-8v-nw8"/>
+        <segue reference="xj7-zm-Z3l"/>
+        <segue reference="8Go-RT-EYN"/>
+        <segue reference="oSp-wF-7nH"/>
+        <segue reference="Gsq-xq-P59"/>
         <segue reference="mtl-8A-uoH"/>
     </inferredMetricsTieBreakers>
     <resources>
