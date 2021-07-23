@@ -9,8 +9,9 @@ import UIKit
 
 class QuizQ4ViewController: UIViewController {
 
-    @IBOutlet weak var ansChoiceTextField: UITextField!
-    @IBOutlet weak var nextQuesTextField: UITextField!
+    @IBOutlet weak var ansChoiceTextField: UILabel!
+    @IBOutlet weak var nextQuesTextField: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +28,7 @@ class QuizQ4ViewController: UIViewController {
         nextQuesTextField.text = ""
     }
     @IBAction func A3ButtonCorrect(_ sender: Any) {
-        ansChoiceTextField.text = "Correct! Explanation:";
+        ansChoiceTextField.text = "Correct!";
         nextQuesTextField.text = "Finish"
     }
     @IBAction func A4Button(_ sender: Any) {

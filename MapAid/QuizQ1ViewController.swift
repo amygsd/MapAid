@@ -11,8 +11,8 @@ class QuizQ1ViewController: UIViewController {
 
     @IBOutlet weak var Question1Label: UILabel!
     @IBOutlet weak var Question1TextLabel: UILabel!
-    @IBOutlet weak var ansChoiceTextField: UITextField!
-    @IBOutlet weak var nextQuesTextField: UITextField!
+    @IBOutlet weak var ansChoiceTextField: UILabel!
+    @IBOutlet weak var nextQuesTextField: UILabel!
     
     
     override func viewDidLoad() {
@@ -27,7 +27,7 @@ class QuizQ1ViewController: UIViewController {
         nextQuesTextField.text = ""
     }
     @IBAction func A2ButtonCorrect(_ sender: Any) {
-        ansChoiceTextField.text = "Correct! Explanation:";
+        ansChoiceTextField.text = "Correct!";
         nextQuesTextField.text = "Next"
     }
     @IBAction func A3Button(_ sender: Any) {
